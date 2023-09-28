@@ -6,7 +6,9 @@ import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./banner.module.css";
 
 export default function Sample() {
-  const [items, setItems] = useState([
+  const [load, setLoad] = useState(false);
+  let type = 0;
+  const [datas, setDatas] = useState([
     {
       id: 0,
       imgUrl: "/banner01.jpg",
@@ -38,25 +40,38 @@ export default function Sample() {
       name: "EXPLORE NATURE",
     }
   ]); 
-
+  
   const handleClickNext = () => {
-    let temp = items;
-    temp.push(items[0]);
-    temp.shift();
-    setItems(temp);
+    type = 0;
+    setLoad((current)=>!current);
+    console.log("next", datas);
   };
 
   const handleClickPrev = () => {
-    let temp = items;
-    temp.unshift(items[items.length-1]);
-    temp.pop();
-    setItems(temp);
+    type = 1;
+    setLoad((current)=>!current);
+    console.log("prev", datas);
   };
+
+  useEffect(()=>{
+    if(type == 0) setDatas((data)=>{
+      let dat = data;
+      dat.push(dat[0]);
+      dat.shift();
+      return dat
+    });
+    else setDatas((data)=>{
+      let dat = data;
+      dat.unshift(dat[dat.length-1]);
+      dat.pop();
+      return dat;
+    });
+  }, [load])
 
   return (
     <div className={styles.container}>
       <div className={styles.slide}>
-        {items.map((item) => {return(
+        {datas.map((item) => {return(
           <div
             key={item.id}
             className={styles.item}
