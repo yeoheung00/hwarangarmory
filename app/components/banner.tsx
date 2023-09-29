@@ -1,14 +1,12 @@
 'use client'
 
-import React, { useRef, useEffect, useState, createElement } from "react";
+import { useEffect, useRef, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import styles from "./banner.module.css";
+import styles from './banner.module.css'
 
-export default function Sample() {
-  const [load, setLoad] = useState(false);
-  let type = 0;
-  const [datas, setDatas] = useState([
+export default function Banner() {
+  const list = [
     {
       id: 0,
       imgUrl: "/banner01.jpg",
@@ -38,43 +36,44 @@ export default function Sample() {
       imgUrl: "/banner05.jpg",
       desc: "Some beautiful roads cannot be discovered without getting loss.",
       name: "EXPLORE NATURE",
+    },
+    {
+      id: 5,
+      imgUrl: "/banner06.jpg",
+      desc: "Some beautiful roads cannot be discovered without getting loss.",
+      name: "EXPLORE NATURE",
     }
-  ]); 
-  
-  const handleClickNext = () => {
-    type = 0;
-    setLoad((current)=>!current);
-    console.log("next", datas);
-  };
+  ];
+  const displayRef = useRef<HTMLDivElement>(null);
+  const itemRef = useRef<any>([]);
+
+  let current = 0;
 
   const handleClickPrev = () => {
-    type = 1;
-    setLoad((current)=>!current);
-    console.log("prev", datas);
-  };
+    let index = current - 1;
+    if(index<0)index=itemRef.current.length-1;
+    if (displayRef.current) displayRef.current.prepend(itemRef.current[index]);
+    if (current > 0) current--;
+    else current = itemRef.current.length-1;
+  }
 
-  useEffect(()=>{
-    if(type == 0) setDatas((data)=>{
-      let dat = data;
-      dat.push(dat[0]);
-      dat.shift();
-      return dat
-    });
-    else setDatas((data)=>{
-      let dat = data;
-      dat.unshift(dat[dat.length-1]);
-      dat.pop();
-      return dat;
-    });
-  }, [load])
+  const handleClickNext = () => {
+    if (displayRef.current) displayRef.current.appendChild(itemRef.current[current]);
+    if (current < itemRef.current.length - 1) current++;
+    else current = 0;
+  }
+
+
 
   return (
-    <div className={styles.container}>
-      <div className={styles.slide}>
-        {datas.map((item) => {return(
-          <div
+    <main className={styles.root}>
+      <div className={styles.display} ref={displayRef}>
+        {list.map((item) => {
+          return (
+            <div
             key={item.id}
             className={styles.item}
+            ref={el=>itemRef.current[item.id]=el}
             style={{ backgroundImage: `url(${item.imgUrl})` }}
           >
             <div className={styles.content}>
@@ -83,7 +82,8 @@ export default function Sample() {
               <button>See more</button>
             </div>
           </div>
-        )})}
+          )
+        })}
       </div>
       <div className={styles.buttons}>
         <button id="prev" onClick={handleClickPrev}>
@@ -93,6 +93,6 @@ export default function Sample() {
           <FontAwesomeIcon icon={faAngleRight} />
         </button>
       </div>
-    </div>
-  );
+    </main>
+  )
 }
