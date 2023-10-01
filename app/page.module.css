@@ -1,3 +1,78 @@
-.root{
-  
+.root {}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+}
+
+.discount {
+  margin: 100px 0;
+}
+
+.discount .title {
+  max-width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.titledivider {
+  max-width: calc(70vw + 100px);
+  height: 2px;
+  background-color: black;
+  margin: auto;
+}
+
+.discountitems {
+  display: flex;
+  max-width: 90%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.item {
+  width: 200px;
+  margin: 20px 10px;
+}
+
+.item .itemimg {
+  position: relative;
+}
+
+.item img {
+  width: 200px;
+  height: 220px;
+  background-color: aqua;
+  display: block;
+  border: 1px solid black;
+}
+
+.item .itemimg h2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: red;
+}
+
+.item h3 {
+  margin: 10px;
+}
+
+.item .origin {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 10px;
+}
+
+.item .discounted {
+  color: red;
+  margin-right: 10px;
+}
+
+.item .summary {
+  color: gray;
+  margin: 10px;
 }
