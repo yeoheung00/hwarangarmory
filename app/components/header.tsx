@@ -2,10 +2,18 @@
 
 import Link from 'next/link'
 import styles from './header.module.css'
+import { useEffect, useState } from 'react'
 
 export default function Header() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const updateScroll = () => {
+      setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  }
+  useEffect(()=>{
+      window.addEventListener('scroll', updateScroll);
+  });
   return (
-    <main className={styles.root}>
+    <main className={`${styles.root} ${scrollPosition>100?styles.offtop:styles.ontop}`}>
       <div className={styles.toolbar}>
         <p className={styles.alert}>Welcome to HWARANG ARMORY!</p>
         <div className={styles.lang}>

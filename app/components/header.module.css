@@ -7,9 +7,18 @@
   transition: background-color 0.3s;
 }
 
-.root:hover{
+.root.ontop{
+  background-color: transparent;
+}
+
+.root.ontop:hover{
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.root.offtop{
+  background-color: black;
+}
+
 
 .divider{
   width: 2px;
@@ -68,11 +77,11 @@
 
 .logowrap{
   margin-left: 50px;
-  height: 40px;
+  height: 50px;
   flex: 1;
 }
 .logo{
-  height: 40px;
+  height: 50px;
 }
 
 .nav>ul{

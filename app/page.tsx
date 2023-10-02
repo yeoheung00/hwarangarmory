@@ -1,50 +1,10 @@
 import Banner from './components/banner'
 import DiscountTimer from './components/discountTimer'
 import styles from './page.module.css'
+import db from './db/data.json'
 
 export default function Home() {
-  const discount = [
-    {
-      id: 0,
-      name: 'item1',
-      img: './products/item1',
-      price: 45,
-      discount: 20,
-      summary: 'this is item1. very good! go to try try!'
-    },
-    {
-      id: 1,
-      name: 'item2',
-      img: './products/item2',
-      price: 89,
-      discount: 25,
-      summary: 'this is item2. very good! go to try try!'
-    },
-    {
-      id: 2,
-      name: 'item3',
-      img: './products/item3',
-      price: 240,
-      discount: 35,
-      summary: 'this is item3. very good! go to try try!'
-    },
-    {
-      id: 3,
-      name: 'item4',
-      img: './products/item4',
-      price: 174,
-      discount: 40,
-      summary: 'this is item4. very good! go to try try!'
-    },
-    {
-      id: 4,
-      name: 'item5',
-      img: './products/item5',
-      price: 304,
-      discount: 40,
-      summary: 'this is item5. very good! go to try try!'
-    }
-  ]
+  const discount = db.discount;
   return (
     <main className={styles.root}>
       <div className={styles.banner}>

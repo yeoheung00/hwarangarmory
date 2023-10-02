@@ -1,0 +1,95 @@
+{
+  "banner": [
+    {
+      "id": 0,
+      "imgUrl": "/banner01.jpg",
+      "desc": "EXPS3 will assist you aim your enemy before your enemy shoot you.",
+      "name": "EOTECH EXPS3"
+    },
+    {
+      "id": 1,
+      "imgUrl": "/banner02.jpg",
+      "desc": "MTEK STRIKE Ballistic Helmet will assist you operate special gears and keep your head light.",
+      "name": "MTEK STRIKE BALLISTIC HELMET"
+    },
+    {
+      "id": 2,
+      "imgUrl": "/banner03.jpg",
+      "desc": "Mechanical The Original Gloves will protect your hand by any danger.",
+      "name": "MECHANIX THE ORIGINAL GLOVES"
+    },
+    {
+      "id": 3,
+      "imgUrl": "/banner04.jpg",
+      "desc": "Garmin GPSMAP 67 will assist in precise operations by providing accurate map information.",
+      "name": "GARMIN GPSMAP 67"
+    },
+
+    {
+      "id": 4,
+      "imgUrl": "/banner01.jpg",
+      "desc": "EXPS3 will assist you aim your enemy before your enemy shoot you.",
+      "name": "EOTECH EXPS3"
+    },
+    {
+      "id": 5,
+      "imgUrl": "/banner02.jpg",
+      "desc": "MTEK STRIKE Ballistic Helmet will assist you operate special gears and keep your head light.",
+      "name": "MTEK STRIKE BALLISTIC HELMET"
+    },
+    {
+      "id": 6,
+      "imgUrl": "/banner03.jpg",
+      "desc": "Mechanical The Original Gloves will protect your hand by any danger.",
+      "name": "MECHANIX THE ORIGINAL GLOVES"
+    },
+    {
+      "id": 7,
+      "imgUrl": "/banner04.jpg",
+      "desc": "Garmin GPSMAP 67 will assist in precise operations by providing accurate map information.",
+      "name": "GARMIN GPSMAP 67"
+    }
+  ],
+  "discount": [
+    {
+      "id": 0,
+      "name": "item1",
+      "img": "./products/item1.jpg",
+      "price": 45,
+      "discount": 20,
+      "summary": "this is item1. very good! go to try try!"
+    },
+    {
+      "id": 1,
+      "name": "item2",
+      "img": "./products/item2.jpg",
+      "price": 89,
+      "discount": 25,
+      "summary": "this is item2. very good! go to try try!"
+    },
+    {
+      "id": 2,
+      "name": "item3",
+      "img": "./products/item3.jpg",
+      "price": 240,
+      "discount": 35,
+      "summary": "this is item3. very good! go to try try!"
+    },
+    {
+      "id": 3,
+      "name": "item4",
+      "img": "./products/item4.jpg",
+      "price": 174,
+      "discount": 40,
+      "summary": "this is item4. very good! go to try try!"
+    },
+    {
+      "id": 4,
+      "name": "item5",
+      "img": "./products/item5.jpg",
+      "price": 304,
+      "discount": 40,
+      "summary": "this is item5. very good! go to try try!"
+    }
+  ]
+}

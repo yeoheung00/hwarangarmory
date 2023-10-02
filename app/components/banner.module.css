@@ -1,11 +1,12 @@
-.root{
+.root {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
+  background-color: black;
 }
 
-.display{
+.display {
   width: 100%;
   height: 100%;
 }
@@ -21,24 +22,22 @@
   z-index: 1;
   top: 100%;
   transform: translate(0, -50%);
-  clip-path: polygon(
-    0 20px,
-    20px 0,
-    calc(100% - 20px) 0,
-    100% 20px,
-    100% 100%,
-    0% 100%
-  );
+  clip-path: polygon(0 20px,
+      20px 0,
+      calc(100% - 20px) 0,
+      100% 20px,
+      100% 100%,
+      0% 100%);
   box-shadow: 0 30px 50px #505050;
   overflow: hidden;
 }
+
 .item:nth-child(1) {
   left: -5%;
 }
+
 .item:nth-child(2) {
-  clip-path: polygon(
-    0 0, 100% 0, 100% 100%, 0 100%
-  );
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   left: 0;
   top: 0;
   transform: translate(0, 0);
@@ -47,19 +46,24 @@
   height: 100%;
   box-shadow: none;
 }
+
 .item:nth-child(3) {
   left: 60%;
 }
+
 .item:nth-child(4) {
   left: calc(60% + 220px);
 }
+
 .item:nth-child(5) {
   left: calc(60% + 440px);
 }
+
 .item:nth-child(n + 6) {
   left: calc(60% + 660px);
   opacity: 0;
 }
+
 .item .content {
   position: absolute;
   top: 50%;
@@ -73,101 +77,76 @@
   transition: opacity 1s ease-in-out;
   display: block;
 }
+
 .item:nth-child(2) .content {
   display: block;
   opacity: 1;
   z-index: 11111;
 }
+
 .item .name {
   font-size: 50px;
   font-weight: bold;
+  color: white;
 }
+
 .item .des {
   font-size: 13px;
   margin: 20px 0;
 }
+
 .item button {
   padding: 10px 20px;
   border: none;
-}
-@keyframes showcontent {
-  from {
-    opacity: 0;
-    transform: translate(0, 100px);
-    filter: blur(33px);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-    filter: blur(0);
-  }
-}
-@keyframes hidecontent {
-  from {
-    opacity: 1;
-    transform: translate(0, 0);
-    filter: blur(0);
-  }
-  to {
-    opacity: 0;
-    transform: translate(0, 100px);
-    filter: blur(33px);
-  }
-}
-.buttons {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  z-index: 10;
-  display: flex;
-  justify-content: space-between;
-}
-.goto {
-  width: 70px;
-  height: 100vh;
-  line-height: 100vh;
-  transition: 0.5s;
+  border: 1px white solid;
   background-color: transparent;
-  border: none;
-  overflow: hidden;
-  position: relative;
-}
-.goto img{
-  position: relative;
-  z-index: 10;
-  width: 70px;
-}
-.shadow{
-  width: 50vw;
-  height: 200vh;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-  transition: 0.5s;
-}
-.goto:first-child .shadow{
-  left: 0;
-  box-shadow: inset 10px 0px 50px rgba(0, 0, 0, 0.7);
-}
-.goto:nth-child(2) .shadow{
-  right: 0;
-  box-shadow: inset -10px 0px 50px rgba(0, 0, 0, 0.7);
-}
-.goto:hover .shadow {
-  box-shadow: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  transition: 0.3s;
 }
 
-.scroll{
+.item button:hover {
+  color: black;
+  background-color: white;
+}
+
+.prevbutton{
+  width: 60px;
+  height: 100vh;
+  z-index: 10;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+.prevbutton:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nextbutton{
+  width: 60px;
+  height: 100vh;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+.nextbutton:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.scroll {
   z-index: 20;
   position: absolute;
   bottom: 80px;
   right: 0;
 }
 
-.scrollline{
+.scrollline {
+  border-radius: 1px;
   width: 4px;
   height: 200px;
   background-color: rgb(255, 255, 255, 0.4);
@@ -175,41 +154,47 @@
   right: 20px;
   bottom: 20px;
 }
-.scroller{
+
+.scroller {
   width: 12px;
   height: 48px;
   border-radius: 2px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255, 255, 255, 1);
   position: absolute;
   right: 16px;
   bottom: 176px;
   animation: scrolling 5s infinite;
 }
 
-@keyframes scrolling{
-  from{
+@keyframes scrolling {
+  from {
     transform: translateY(0);
     opacity: 0;
   }
-  20%{
+
+  20% {
     opacity: 1;
   }
-  30%{
+
+  30% {
     transform: translateY(0);
   }
-  70%{
+
+  70% {
     transform: translateY(160px);
   }
-  80%{
+
+  80% {
     opacity: 1;
   }
-  to{
+
+  to {
     opacity: 0;
     transform: translateY(160px);
   }
 }
 
-.scroll p{
+.scroll p {
   color: white;
   position: absolute;
   right: 20px;
