@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.08 46.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e71f19;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #040000;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <path class="cls-1" d="m.12.12v46.51h46.51v-11.63h5.81v11.63h46.51V.12H.12Zm52.32,23.25h-5.81v-11.63h5.81v11.63Z"/>
+    <g>
+      <line class="cls-2" x1=".12" y1=".12" x2="98.96" y2=".12"/>
+      <line class="cls-2" x1=".12" y1="11.75" x2="98.96" y2="11.75"/>
+      <line class="cls-2" x1=".12" y1="23.38" x2="98.96" y2="23.38"/>
+      <line class="cls-2" x1=".12" y1="35.01" x2="98.96" y2="35.01"/>
+      <line class="cls-2" x1=".12" y1="46.63" x2="98.96" y2="46.63"/>
+      <line class="cls-2" x1="46.63" y1=".13" x2="46.63" y2="46.63"/>
+      <line class="cls-2" x1="52.45" y1=".13" x2="52.45" y2="46.63"/>
+      <line class="cls-2" x1="58.26" y1=".13" x2="58.26" y2="46.63"/>
+      <line class="cls-2" x1="64.07" y1=".13" x2="64.07" y2="46.63"/>
+      <line class="cls-2" x1="69.89" y1=".13" x2="69.89" y2="46.63"/>
+      <line class="cls-2" x1="75.7" y1=".13" x2="75.7" y2="46.63"/>
+      <line class="cls-2" x1="81.51" y1=".13" x2="81.51" y2="46.63"/>
+      <line class="cls-2" x1="87.33" y1=".13" x2="87.33" y2="46.63"/>
+      <line class="cls-2" x1="93.14" y1=".13" x2="93.14" y2="46.63"/>
+      <line class="cls-2" x1="98.95" y1=".13" x2="98.95" y2="46.63"/>
+      <line class="cls-2" x1=".13" y1=".13" x2=".13" y2="46.63"/>
+      <line class="cls-2" x1="5.94" y1=".13" x2="5.94" y2="46.63"/>
+      <line class="cls-2" x1="11.75" y1=".13" x2="11.75" y2="46.63"/>
+      <line class="cls-2" x1="17.57" y1=".13" x2="17.57" y2="46.63"/>
+      <line class="cls-2" x1="23.38" y1=".13" x2="23.38" y2="46.63"/>
+      <line class="cls-2" x1="29.19" y1=".13" x2="29.19" y2="46.63"/>
+      <line class="cls-2" x1="35.01" y1=".13" x2="35.01" y2="46.63"/>
+      <line class="cls-2" x1="40.82" y1=".13" x2="40.82" y2="46.63"/>
+    </g>
+  </g>
+</svg>

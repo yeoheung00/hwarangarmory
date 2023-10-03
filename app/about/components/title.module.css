@@ -1,0 +1,21 @@
+.root{
+  position: relative;
+}
+
+.back{
+  display: flex;
+  opacity: 0.4;
+}
+
+.item{
+  mask-repeat: no-repeat;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin-left: 20px;
+  color: white;
+}

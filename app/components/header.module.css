@@ -1,10 +1,11 @@
 .root{
   width: 100vw;
-  height: 120px;
+  height: 160px;
   position: fixed;
   z-index: 999;
   font-family: 'Wemakeprice-Regular';
   transition: background-color 0.3s;
+  transition: 0.3s;
 }
 
 .root.ontop{
@@ -16,6 +17,7 @@
 }
 
 .root.offtop{
+  height: 100px;
   background-color: black;
 }
 
@@ -69,19 +71,104 @@
 
 .header{
   display: flex;
-  padding: 0 20px;
   width: 100%;
-  height: 80px;
+  height: 120px;
   align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+.root.offtop .header{
+  height: 60px;
 }
 
 .logowrap{
-  margin-left: 50px;
-  height: 50px;
-  flex: 1;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
-.logo{
+
+.symbolwrap{
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.root.offtop .symbolwrap{
+  width: 50px;
   height: 50px;
+}
+
+.symbol{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 110px;
+  height: 110px;
+  -webkit-mask-image: url("/symbol_.svg");
+  mask-image: url("/symbol_.svg");
+  background-color: var(--red);
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.root.offtop .symbol{
+  width: 50px;
+  height: 50px;
+}
+
+
+.root.offtop .colorsymbol{
+  width: 50px;
+  height: 50px;
+}
+
+.logowrap .colorsymbol {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.logowrap:hover .symbol{
+  opacity: 0;
+}
+
+.logowrap:hover .colorsymbol{
+  opacity: 1;
+}
+
+.logo{
+  height: 70px;
+  -webkit-mask-image: url("/logo.svg");
+  mask-image: url("/logo.svg");
+  mask-repeat: no-repeat;
+  background-color: var(--red);
+  transition: 0.3s;
+}
+
+.root.offtop .logo{
+  height: 40px;
+}
+
+.logowrap:hover .logo{
+  background-color: var(--yellow);
+}
+
+.logo img{
+  height: 70px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+.root.offtop img{
+  height: 40px;
+}
+
+.navwrap{
+  display: flex;
+  align-items: center;
 }
 
 .nav>ul{
@@ -96,17 +183,25 @@
 .nav a{
   font-family: "Wemakeprice-Regular";
   text-decoration: none;
-  color: white;
+  color: var(--yellow);
   font-weight: bold;
   transition: 0.3s;
 }
 
 .nav a:hover{
-  color: red;
+  color: var(--red);
 }
 
 .menu{
   margin: 0 50px;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.menu img{
+  width: 32px;
+  height: 32px;
 }
 
 .menu img:first-child{

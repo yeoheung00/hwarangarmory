@@ -1,0 +1,15 @@
+.root{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.root img{
+  
+}
+
+.root h3{
+  margin: 20px 0;
+  text-align: center;
+  color: var(--yellow);
+}

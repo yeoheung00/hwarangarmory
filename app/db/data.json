@@ -91,5 +91,22 @@
       "discount": 40,
       "summary": "this is item5. very good! go to try try!"
     }
+  ],
+  "symbol": [
+    {
+      "imgUrl": "/symbol/shield.svg",
+      "des": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "name": "Shield"
+    },
+    {
+      "imgUrl": "/symbol/goblin.svg",
+      "des": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "name": "Goblin"
+    },
+    {
+      "imgUrl": "/symbol/hat.svg",
+      "des": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "name": "Hwarang hat"
+    }
   ]
 }

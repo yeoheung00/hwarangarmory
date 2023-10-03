@@ -1,4 +1,5 @@
 import Banner from './components/banner'
+import Section from './components/section'
 import DiscountTimer from './components/discountTimer'
 import styles from './page.module.css'
 import db from './db/data.json'
@@ -10,6 +11,7 @@ export default function Home() {
       <div className={styles.banner}>
         <Banner />
       </div>
+      <Section/>
       <div className={styles.discount}>
         <div className={styles.title}>
           <h2>Discount of the Week</h2>

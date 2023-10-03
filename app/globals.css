@@ -3,6 +3,11 @@
   padding: 0;
   margin: 0;
   font-family: 'Wemakeprice-Regular';
+  --red: #de2a22;
+  --green: #1f853b;
+  --blue: #005dab;
+  --yellow: #f5d11e;
+  --brown: #70321b;
 }
 
 @font-face {
