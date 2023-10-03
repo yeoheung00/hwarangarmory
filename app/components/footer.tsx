@@ -19,8 +19,8 @@ export default function Footer() {
       <div className={styles.follow}>
         <h2>Follow</h2>
         <div className={styles.sns}>
-          <img src='/icons/instagram.svg' />
-          <img src='/icons/x.svg' />
+          <img src='/icons/Instagram.svg' />
+          <img src='/icons/X.svg' />
         </div>
         <div className={styles.news}>
           <input type='text' placeholder='example@hwarang.com' />
