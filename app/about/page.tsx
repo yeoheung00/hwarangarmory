@@ -56,8 +56,12 @@ export default function About() {
             <img src='/pattern/snowy.jpg' alt='snowy' />
             <h3>Snowy</h3>
           </div>
+          <div className={styles.pattern}>
+            <img src='/pattern/brand.jpg' alt='brand' />
+            <h3>Brand</h3>
+          </div>
           <div className={styles.patterngen}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/krdo3gwNdAU?si=cvDeq5W7nLiQRaBL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/w_XCrnl1zBA?si=_j1nRbO5IyQivZDg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             <Link href='https://hwarang-pattern-generator.vercel.app/'>MAKE PATTERN</Link>
           </div>
         </div>
