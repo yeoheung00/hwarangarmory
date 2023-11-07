@@ -1,7 +1,7 @@
 import styles from './page.module.css'
-import Title from './components/title'
-import Asset from './components/asset'
-import db from '../db/data.json'
+import Title from 'components/title'
+import Asset from 'components/asset'
+import db from 'db/data.json'
 import Link from 'next/link';
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
       <div className={styles.header}>
         <div className={styles.contents}>
           <h1>WE ARE<br /><span>HWARANG ARMORY.</span></h1>
-          <p>‘Peace through strength’<br />Warriors who protect national security and contribute to world peace constantly strive to create a safer country and a safer world by maximizing their capabilities and protecting them from threats.</p>
+          <p className='text-black'>‘Peace through strength’<br />Warriors who protect national security and contribute to world peace constantly strive to create a safer country and a safer world by maximizing their capabilities and protecting them from threats.</p>
         </div>
       </div>
       <div className={styles.article}>
@@ -24,7 +24,7 @@ export default function About() {
           </div>
         </div>
         <div className={styles.assetwrap}>
-          {data.map((item, index) => <Asset imgUrl={item.imgUrl} des={item.des} name={item.name} />)}
+          {data.map((item, index) => <Asset key={index} imgUrl={item.imgUrl} des={item.des} name={item.name} />)}
         </div>
       </div>
       <div className={styles.article}>
@@ -37,7 +37,7 @@ export default function About() {
           </div>
           <div>
             <h3>System</h3>
-            <img src='/about/system.svg'/>
+            <img src='/about/system.svg' />
           </div>
         </div>
       </div>

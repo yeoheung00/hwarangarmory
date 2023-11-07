@@ -1,37 +1,35 @@
-import Banner from './components/banner'
-import Section from './components/section'
-import DiscountTimer from './components/discountTimer'
-import styles from './page.module.css'
-import db from './db/data.json'
+import Banner from 'components/banner'
+import Section from 'components/section'
+import db from 'db/data.json'
+import Discount from '@/components/discount'
+import Newarrival from '@/components/newarrival'
+import Review from '@/components/review'
+import Program from '@/components/program'
 
 export default function Home() {
   const discount = db.discount;
   return (
-    <main className={styles.root}>
-      <div className={styles.banner}>
+    <main className='w-full min-h-screen'>
+      <div className='w-full h-[80vh]'>
         <Banner />
       </div>
-      <Section/>
-      <div className={styles.discount}>
-        <div className={styles.title}>
-          <h2>Discount of the Week</h2>
-          <DiscountTimer />
+      <div className='mx-auto'>
+        <div>
+          <Section />
         </div>
-        <div className={styles.titledivider} />
-        <div className={styles.discountitems}>
-          {discount.map(item => {
-            return (
-              <div className={styles.item} key={item.id}>
-                <div className={styles.itemimg}>
-                  <img src={item.img} alt={item.name} />
-                  <h2>-{item.discount}%</h2>
-                </div>
-                <h3>{item.name}</h3>
-                <p><span className={styles.origin}>${item.price.toFixed(2)}</span> <span className={styles.discounted}>${((100 - item.discount) / 100 * item.price).toFixed(2)}</span></p>
-                <p className={styles.summary}>{item.summary}</p>
-              </div>
-            )
-          })}
+        <div>
+          <Discount />
+        </div>
+        <div>
+          <Newarrival />
+        </div>
+      </div>
+      <div>
+        <Program />
+      </div>
+      <div className='mx-auto'>
+        <div>
+          <Review />
         </div>
       </div>
     </main>

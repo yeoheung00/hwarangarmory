@@ -54,7 +54,7 @@
     {
       "id": 0,
       "name": "item1",
-      "img": "./products/item1.jpg",
+      "img": "item1.jpg",
       "price": 45,
       "discount": 20,
       "summary": "this is item1. very good! go to try try!"
@@ -62,7 +62,7 @@
     {
       "id": 1,
       "name": "item2",
-      "img": "./products/item2.jpg",
+      "img": "item2.jpg",
       "price": 89,
       "discount": 25,
       "summary": "this is item2. very good! go to try try!"
@@ -70,7 +70,7 @@
     {
       "id": 2,
       "name": "item3",
-      "img": "./products/item3.jpg",
+      "img": "item3.jpg",
       "price": 240,
       "discount": 35,
       "summary": "this is item3. very good! go to try try!"
@@ -78,7 +78,7 @@
     {
       "id": 3,
       "name": "item4",
-      "img": "./products/item4.jpg",
+      "img": "item4.jpg",
       "price": 174,
       "discount": 40,
       "summary": "this is item4. very good! go to try try!"
@@ -86,9 +86,99 @@
     {
       "id": 4,
       "name": "item5",
-      "img": "./products/item5.jpg",
+      "img": "item5.jpg",
       "price": 304,
       "discount": 40,
+      "summary": "this is item5. very good! go to try try!"
+    },
+    {
+      "id": 5,
+      "name": "item6",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 40,
+      "summary": "this is item5. very good! go to try try!"
+    },
+    {
+      "id": 6,
+      "name": "item7",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 40,
+      "summary": "this is item5. very good! go to try try!"
+    },
+    {
+      "id": 7,
+      "name": "item8",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 40,
+      "summary": "this is item5. very good! go to try try!"
+    }
+  ],
+  "newarrivals": [
+    {
+      "id": 0,
+      "name": "item1",
+      "img": "item1.jpg",
+      "price": 45,
+      "discount": 10,
+      "summary": "this is item1. very good! go to try try!"
+    },
+    {
+      "id": 1,
+      "name": "item2",
+      "img": "item2.jpg",
+      "price": 89,
+      "discount": 10,
+      "summary": "this is item2. very good! go to try try!"
+    },
+    {
+      "id": 2,
+      "name": "item3",
+      "img": "item3.jpg",
+      "price": 240,
+      "discount": 5,
+      "summary": "this is item3. very good! go to try try!"
+    },
+    {
+      "id": 3,
+      "name": "item4",
+      "img": "item4.jpg",
+      "price": 174,
+      "discount": 0,
+      "summary": "this is item4. very good! go to try try!"
+    },
+    {
+      "id": 4,
+      "name": "item5",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 0,
+      "summary": "this is item5. very good! go to try try!"
+    },
+    {
+      "id": 5,
+      "name": "item6",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 0,
+      "summary": "this is item5. very good! go to try try!"
+    },
+    {
+      "id": 6,
+      "name": "item7",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 0,
+      "summary": "this is item5. very good! go to try try!"
+    },
+    {
+      "id": 7,
+      "name": "item8",
+      "img": "item5.jpg",
+      "price": 304,
+      "discount": 0,
       "summary": "this is item5. very good! go to try try!"
     }
   ],

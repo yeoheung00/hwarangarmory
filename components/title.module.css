@@ -1,21 +1,25 @@
-.root{
+.root {
   position: relative;
+  overflow: hidden;
 }
 
-.back{
+.back {
   display: flex;
   opacity: 0.4;
 }
 
-.item{
+.item {
   mask-repeat: no-repeat;
+  flex: 0 0 auto;
 }
 
-.title{
+.title {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
   margin-left: 20px;
   color: white;
+  font-size: xx-large;
+  font-weight: bolder;
 }

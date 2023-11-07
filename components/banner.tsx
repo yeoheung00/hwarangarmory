@@ -75,7 +75,7 @@ export default function Banner() {
               style={{ backgroundImage: `url(${item.imgUrl})` }}
             >
               <div className={styles.content}>
-                <div className={styles.capital} style={{maskImage: `url("/char/${item.name[0].toLowerCase()}.svg")`, WebkitMaskImage: `url("/char/${item.name[0].toLowerCase()}.svg")`, maskSize: "170px"}}/>
+                <div className={styles.capital} style={{ maskImage: `url("/char/${item.name[0].toLowerCase()}.svg")`, WebkitMaskImage: `url("/char/${item.name[0].toLowerCase()}.svg")`, maskSize: "170px" }} />
                 <div className={styles.name}>{item.name}</div>
                 <div className={styles.des}>{item.desc}</div>
                 <button>See more</button>
@@ -84,10 +84,10 @@ export default function Banner() {
           )
         })}
       </div>
-      <img className={styles.prevbutton} src='./icons/Right.svg' alt='Prev' onClick={handleClickPrev}/>
-      <img className={styles.nextbutton} src='./icons/Left.svg' alt='Next' onClick={handleClickNext}/>
+      <img className={styles.prevbutton} src='./icons/Right.svg' alt='Prev' onClick={handleClickPrev} />
+      <img className={styles.nextbutton} src='./icons/Left.svg' alt='Next' onClick={handleClickNext} />
       <div className={styles.scroll}>
-        <div className={styles.scrollline}/>
+        <div className={styles.scrollline} />
         <div className={styles.scroller}>
           <p>View more!</p></div>
       </div>

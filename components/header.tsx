@@ -43,8 +43,7 @@ export default function Header() {
             <ul>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/programs">Programs</Link></li>
-              <li><Link href="/contact">Board</Link></li>
-              <li><Link href="/store">Store</Link></li>
+              <li><Link href="/board">Board</Link></li>
             </ul>
           </nav>
           <menu className={styles.menu}>
