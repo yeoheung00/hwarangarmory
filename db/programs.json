@@ -1,38 +1,18 @@
-{
-  "civilian": [
-    {
-      "title": "First unboxing",
-      "cover": "cover.webp"
-    }
-    ,{
-      "title": "How to aim",
-      "cover": "cover.webp"
-    },
-    {
-      "title": "How to pull triger",
-      "cover": "cover.webp"
-    },
-    {
-      "title": "Safty guide",
-      "cover": "cover.webp"
-    }
-  ],
-  "warrior":[
-    {
-      "title": "Using eapen light",
-      "cover": "cover.webp"
-    },
-    {
-      "title": "Mussle strike",
-      "cover": "cover.webp"
-    },
-    {
-      "title": "TCCC expert",
-      "cover": "cover.webp"
-    },
-    {
-      "title": "MOPP operate",
-      "cover": "cover.webp"
-    }
-  ]
-}
+[
+  {
+    "title": "Using eapen light",
+    "cover": "cover.webp"
+  },
+  {
+    "title": "Mussle strike",
+    "cover": "cover.webp"
+  },
+  {
+    "title": "TCCC expert",
+    "cover": "cover.webp"
+  },
+  {
+    "title": "MOPP operate",
+    "cover": "cover.webp"
+  }
+]

@@ -47,8 +47,8 @@ export default function Section() {
           <div className='w-full h-full absolute top-0 left-0'>
             <div className='w-[90%] group-hover/item1:w-full transition-[width] relative top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]'>
               <div className='w-full h-0 pb-[calc(100%_/_17_*_8)]' style={{
-                maskImage: "url('/char/f.svg')",
-                WebkitMaskImage: "url('char/c.svg')",
+                maskImage: "url('/char/a.svg')",
+                WebkitMaskImage: "url('char/a.svg')",
                 maskRepeat: 'no-repeat',
                 WebkitMaskRepeat: 'no-repeat',
                 backgroundColor: 'black'
@@ -56,7 +56,7 @@ export default function Section() {
                 <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/clothes.jpg' alt='clothes' />
               </div>
             </div>
-            <div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-4xl group-hover/item1:text-5xl transition-[font-size] text-white' style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>Clothes</div>
+            <div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-4xl group-hover/item1:text-5xl transition-[font-size] text-white' style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>Apparel</div>
           </div>
         </div>
 

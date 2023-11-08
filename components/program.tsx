@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link";
 import { useEffect, useState } from "react"
 
 export default function () {
@@ -19,7 +20,7 @@ export default function () {
       }} />
       <div className="translate-x-[-50%] translate-y-[-50%] top-1/2 left-1/2 absolute flex flex-col justify-center items-center gap-8">
         <div className="text-center text-4xl leading-normal" style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>We are providing Effective Programs<br />for Civilians & Warriors</div>
-        <button className="px-4 py-2 border-[1px] border-white hover:bg-white hover:text-black transition-[all] bg-[#00000044] text-lg ">Try Our Programs</button>
+        <Link href='/programs' className="px-4 py-2 border-[1px] border-white hover:bg-white hover:text-black transition-[all] bg-[#00000044] text-lg ">Try Our Programs</Link>
       </div>
     </div>
   )
