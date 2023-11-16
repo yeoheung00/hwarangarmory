@@ -3,8 +3,10 @@
 import Link from 'next/link'
 import styles from './header.module.css'
 import { useEffect, useState } from 'react'
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname().split("/")[1];
   const [scrollPosition, setScrollPosition] = useState(0);
   const updateScroll = () => {
     setScrollPosition(window.scrollY || document.documentElement.scrollTop);
@@ -13,7 +15,7 @@ export default function Header() {
     window.addEventListener('scroll', updateScroll);
   });
   return (
-    <div className={`${styles.root} ${scrollPosition > 100 ? styles.offtop : styles.ontop}`}>
+    <div className={`${styles.root} ${scrollPosition > 100 ? styles.offtop : styles.ontop} ${pathname === 'identity' ? styles.hideheader : null}`}>
       <div className={styles.toolbar}>
         <p className={styles.alert}>Welcome to HWARANG ARMORY!</p>
         <div className={styles.lang}>

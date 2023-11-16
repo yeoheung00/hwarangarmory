@@ -1,8 +1,12 @@
+'use client'
+
 import styles from './footer.module.css'
+import { usePathname } from 'next/navigation'
 
 export default function Footer() {
+  const pathname = usePathname().split("/")[1];
   return (
-    <div className={styles.root}>
+    <div className={styles.root} style={{ display: pathname === 'identity' ? 'none' : 'flex' }}>
       <div className={styles.info}>
         <div className={styles.logowrap}>
           <img src='/symbol.svg' />

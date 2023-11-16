@@ -8,6 +8,10 @@
   transition: 0.3s;
 }
 
+.hideheader {
+  display: none;
+}
+
 .root.ontop {
   background-color: transparent;
 }
