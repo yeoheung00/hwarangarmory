@@ -14,9 +14,9 @@ const Review = ({ cover, author, rate, summary, item }: { cover: string, author:
           </div>
         </div>
         <h2 className="text-xl font-bold">{item}</h2>
-        <p className="text-md mb-5">{summary}</p>
+        <p className="text-md mb-5 mt-4 text-[#bbbbbb]">{summary}</p>
       </div>
-      <img className="border-t border-[grey] object-cover" src={cover} alt={item} />
+      <img className="border-t border-[grey] object-cover w-full h-80" src={cover} alt={item} />
     </div>
   )
 }
@@ -25,14 +25,14 @@ export default function () {
   return (
     <div className="mt-32 mb-16">
       <div className="px-5 mb-5">
-        <Title text=" Best Reviews" color="var(--red)" />
+        <Title text="Best Reviews" color="var(--red)" />
       </div>
       <div className='flex w-full gap-5 flex-wrap px-5'>
-        <Review cover='/items/default.webp' author="asdf" rate={10} summary="asldkfjal;sdf" item="item1" />
-        <Review cover='/items/default.webp' author="asdf" rate={10} summary="asldkfjal;sdf" item="item1" />
-        <Review cover='/items/default.webp' author="asdf" rate={9} summary="asldkfjal;sdf" item="item1" />
-        <Review cover='/items/default.webp' author="asdf" rate={10} summary="asldkfjal;sdf" item="item1" />
-        <Review cover='/items/default.webp' author="asdf" rate={10} summary="asldkfjal;sdf" item="item1" />
+        <Review cover='/review/1.jpeg' author="User01" rate={10} summary="very bright. good." item="Weapon Light" />
+        <Review cover='/review/2.jpeg' author="User02" rate={10} summary="clear and accurate. perfect." item="LPVO" />
+        <Review cover='/review/3.jpeg' author="User03" rate={9} summary="comfortable." item="Bipod" />
+        <Review cover='/review/4.jpeg' author="User04" rate={10} summary="very accurate." item="Hologram Sight" />
+        <Review cover='/review/5.jpeg' author="User05" rate={10} summary="easy to aim" item="Pistol Sight" />
       </div>
       <div className="mt-16 flex justify-center">
         <button className="px-8 py-4 border-[1px] border-white hover:bg-white hover:text-black transition-[all] bg-transparent text-xl">View All Reviews</button>

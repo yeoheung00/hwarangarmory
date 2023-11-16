@@ -8,10 +8,11 @@ export default function About() {
   const data = db.symbol;
   return (
     <main className={styles.root}>
+      <img src='/about/back.jpg' className='absolute w-full h-full top-0 left-0 opacity-30 z-[-999] object-cover' />
       <div className={styles.header}>
         <div className={styles.contents}>
           <h1>WE ARE<br /><span>HWARANG ARMORY.</span></h1>
-          <p className='text-black'>‘Peace through strength’<br />Warriors who protect national security and contribute to world peace constantly strive to create a safer country and a safer world by maximizing their capabilities and protecting them from threats.</p>
+          <p className=''>‘Peace through strength’<br />Warriors who protect national security and contribute to world peace constantly strive to create a safer country and a safer world by maximizing their capabilities and protecting them from threats.</p>
         </div>
       </div>
       <div className={styles.article}>

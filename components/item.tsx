@@ -2,9 +2,9 @@ export default function ({ title, price, cover = 'default.webp', des, option = {
   const initial = title[0].toLowerCase();
   const finalPrice = price - price * option.discount / 100;
   return (
-    <div className="w-full hover:bg-[#1f1f1f] border-[1px] border-white">
-      <div className="w-full h-0 pb-[100%] relative border-b border-[grey]">
-        <img className="absolute top-0 left-0 w-full h-full object-cover" src={`/items/${cover}`} alt={title} />
+    <div className="w-full hover:bg-[#1f1f1f] border-[1px] border-white h-[400px]">
+      <div className="w-full h-[260px] relative flex justify-center border-b border-[grey]">
+        <img className=" w-full h-full object-contain bg-white" src={`/items/${cover}`} alt={title} />
         <div className="absolute top-0 left-0 flex">
           {
             option.discount === 0 ? null : (

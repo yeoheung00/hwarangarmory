@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "name": "Hologram Sight",
+    "img": "hologram_sight.png",
+    "price": 745,
+    "discount": 0,
+    "summary": "This helps you aim quickly.",
+    "isNew": true
+  },
+  {
+    "id": 1,
+    "name": "Rifle Sight",
+    "img": "rifle_sight.png",
+    "price": 599,
+    "discount": 0,
+    "summary": "This helps you aim quickly.",
+    "isNew": true
+  },
+  {
+    "id": 2,
+    "name": "Knee Pad",
+    "img": "knee_pad.png",
+    "price": 25,
+    "discount": 0,
+    "summary": "This will protect your knees from impact",
+    "isNew": true
+  },
+  {
+    "id": 3,
+    "name": "Elbow Pad",
+    "img": "elbow_pad.png",
+    "price": 25,
+    "discount": 0,
+    "summary": "This will protect your elbows from impact",
+    "isNew": true
+  },
+  {
+    "id": 4,
+    "name": "Optic Mount",
+    "img": "optic_mount.png",
+    "price": 304,
+    "discount": 0,
+    "summary": "This gives you comfort when aiming through the Rifle Optic.",
+    "isNew": true
+  },
+  {
+    "id": 5,
+    "name": "Pistol Optic",
+    "img": "pistol_optic.png",
+    "price": 740,
+    "discount": 20,
+    "summary": "This helps you aim quickly.",
+    "isNew": false
+  },
+  {
+    "id": 6,
+    "name": "Polymer Magazine",
+    "img": "polymer_magazine.png",
+    "price": 37,
+    "discount": 25,
+    "summary": "A lightweight and sturdy 30-round magazine.",
+    "isNew": false
+  },
+  {
+    "id": 7,
+    "name": "Backup Ironsight Set",
+    "img": "backup_ironsight.png",
+    "price": 140,
+    "discount": 35,
+    "summary": "This will help you if your scope breaks.",
+    "isNew": false
+  },
+  {
+    "id": 8,
+    "name": "Rifle Sling",
+    "img": "rifle_sling.png",
+    "price": 64,
+    "discount": 20,
+    "summary": "It will provide comfort in carrying the rifle.",
+    "isNew": false
+  },
+  {
+    "id": 9,
+    "name": "Vertical Grip",
+    "img": "vertical_grip.png",
+    "price": 51,
+    "discount": 40,
+    "summary": "Reduces arm fatigue when shooting.",
+    "isNew": false
+  }
+]

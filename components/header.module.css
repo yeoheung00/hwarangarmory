@@ -1,5 +1,5 @@
-.root{
-  width: 100vw;
+.root {
+  width: 100%;
   height: 160px;
   position: fixed;
   z-index: 999;
@@ -8,27 +8,27 @@
   transition: 0.3s;
 }
 
-.root.ontop{
+.root.ontop {
   background-color: transparent;
 }
 
-.root.ontop:hover{
+.root.ontop:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.root.offtop{
+.root.offtop {
   height: 100px;
   background-color: black;
 }
 
 
-.divider{
+.divider {
   width: 2px;
   height: 30px;
   background-color: lightslategray;
 }
 
-.toolbar{
+.toolbar {
   background-color: black;
   width: 100%;
   height: 40px;
@@ -39,37 +39,37 @@
   color: white;
 }
 
-.alert{
+.alert {
   width: 100%;
   line-height: 40px;
   position: absolute;
   text-align: center;
 }
 
-.icon{
+.icon {
   width: 24px;
   height: 24px;
   margin: 8px;
 }
 
-.drop{
+.drop {
   width: 24px;
   height: 24px;
   margin: 8px 0;
   margin-right: 10px;
 }
 
-.lang{
+.lang {
   display: flex;
   align-items: center;
 }
 
-.currency{
+.currency {
   display: flex;
   align-items: center;
 }
 
-.header{
+.header {
   display: flex;
   width: 100%;
   height: 120px;
@@ -78,17 +78,17 @@
   transition: 0.3s;
 }
 
-.root.offtop .header{
+.root.offtop .header {
   height: 60px;
 }
 
-.logowrap{
+.logowrap {
   margin-left: 20px;
   display: flex;
   align-items: center;
 }
 
-.symbolwrap{
+.symbolwrap {
   position: relative;
   width: 110px;
   height: 110px;
@@ -96,14 +96,14 @@
   transition: 0.3s;
 }
 
-.root.offtop .symbolwrap{
+.root.offtop .symbolwrap {
   width: 50px;
   height: 50px;
 }
 
-.symbol{
+.symbol {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 110px;
   height: 110px;
@@ -114,13 +114,13 @@
   opacity: 1;
 }
 
-.root.offtop .symbol{
+.root.offtop .symbol {
   width: 50px;
   height: 50px;
 }
 
 
-.root.offtop .colorsymbol{
+.root.offtop .colorsymbol {
   width: 50px;
   height: 50px;
 }
@@ -130,15 +130,15 @@
   transition: 0.3s;
 }
 
-.logowrap:hover .symbol{
+.logowrap:hover .symbol {
   opacity: 0;
 }
 
-.logowrap:hover .colorsymbol{
+.logowrap:hover .colorsymbol {
   opacity: 1;
 }
 
-.logo{
+.logo {
   height: 70px;
   -webkit-mask-image: url("/logo.svg");
   mask-image: url("/logo.svg");
@@ -147,40 +147,40 @@
   transition: 0.3s;
 }
 
-.root.offtop .logo{
+.root.offtop .logo {
   height: 40px;
 }
 
-.logowrap:hover .logo{
+.logowrap:hover .logo {
   background-color: var(--yellow);
 }
 
-.logo img{
+.logo img {
   height: 70px;
   opacity: 0;
   transition: 0.3s;
 }
 
 
-.root.offtop img{
+.root.offtop img {
   height: 40px;
 }
 
-.navwrap{
+.navwrap {
   display: flex;
   align-items: center;
 }
 
-.nav>ul{
+.nav>ul {
   display: flex;
 }
 
-.nav li{
+.nav li {
   list-style: none;
   margin: 0 20px;
 }
 
-.nav a{
+.nav a {
   font-family: "Wemakeprice-Regular";
   text-decoration: none;
   color: var(--yellow);
@@ -188,23 +188,23 @@
   transition: 0.3s;
 }
 
-.nav a:hover{
+.nav a:hover {
   color: var(--red);
 }
 
-.menu{
+.menu {
   margin: 0 50px;
   display: flex;
   align-items: center;
   height: 32px;
 }
 
-.menu img{
+.menu img {
   width: 32px;
   height: 32px;
 }
 
-.menu img:first-child{
-   margin-right: 20px;
-   fill: white;
+.menu img:first-child {
+  margin-right: 20px;
+  fill: white;
 }

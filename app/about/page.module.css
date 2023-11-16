@@ -1,12 +1,16 @@
 .root {
-  background-color: black;
+  position: relative;
 }
 
 .header {
   height: 90vh;
-  background-image: url("/about/head.jpg");
+  background-image: url("/about/head.png");
+  background-position: 50%;
   background-size: 100%;
   padding-top: 200px;
+  z-index: 10;
+  position: relative;
+  border-bottom: 1px solid white;
 }
 
 .contents {
@@ -34,6 +38,7 @@
   max-width: 1000px;
   margin: auto;
   color: white;
+  position: relative;
 }
 
 .symbolwrap {
@@ -120,7 +125,7 @@
   flex-direction: column;
 }
 
-.patterngen .goto{
+.patterngen .goto {
   text-align: center;
   width: 100%;
 }

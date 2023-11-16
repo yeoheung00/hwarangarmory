@@ -19,7 +19,7 @@ export default function Section() {
                 WebkitMaskRepeat: 'no-repeat',
                 backgroundColor: 'black'
               }}>
-                <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/firearms.jpg' alt='firearms' />
+                <img className='absolute top-0 left-0 opacity-90 w-full h-full object-cover' src='/category/firearms2.jpg' alt='firearms' />
               </div>
             </div>
             <div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-4xl group-hover/item1:text-5xl transition-[font-size] text-white' style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>Firearms</div>
@@ -36,7 +36,7 @@ export default function Section() {
                 WebkitMaskRepeat: 'no-repeat',
                 backgroundColor: 'black'
               }}>
-                <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/ammo.jpg' alt='ammo' />
+                <img className='absolute top-0 left-0 opacity-90 w-full h-full object-cover' src='/category/ammo2.jpg' alt='ammo' />
               </div>
             </div>
             <div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-4xl group-hover/item1:text-5xl transition-[font-size] text-white' style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>Ammos</div>
@@ -53,7 +53,7 @@ export default function Section() {
                 WebkitMaskRepeat: 'no-repeat',
                 backgroundColor: 'black'
               }}>
-                <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/clothes.jpg' alt='clothes' />
+                <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/apparel.jpg' alt='clothes' />
               </div>
             </div>
             <div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-4xl group-hover/item1:text-5xl transition-[font-size] text-white' style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>Apparel</div>
@@ -70,7 +70,7 @@ export default function Section() {
                 WebkitMaskRepeat: 'no-repeat',
                 backgroundColor: 'black'
               }}>
-                <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/gear.jpg' alt='gear' />
+                <img className='absolute top-0 left-0 opacity-70 w-full h-full object-cover' src='/category/gear2.jpg' alt='gear' />
               </div>
             </div>
             <div className='absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-4xl group-hover/item1:text-5xl transition-[font-size] text-white' style={{ textShadow: '0 0 5px rgba(0, 0, 0, 1)' }}>Gears</div>

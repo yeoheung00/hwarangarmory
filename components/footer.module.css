@@ -1,76 +1,76 @@
-.root{
+.root {
   background-color: black;
   color: white;
   border-top: 1px solid white;
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
 }
 
-.root h2{
+.root h2 {
   color: var(--yellow);
 }
 
-.info{
+.info {
   margin: 50px 60px;
   flex: 1;
   display: flex;
   align-items: center;
 }
 
-.logowrap{
+.logowrap {
   display: flex;
   align-items: center;
   height: 100px;
 }
 
-.logowrap img{
-height: 50px;
+.logowrap img {
+  height: 50px;
 }
 
-.logowrap img:first-child{
+.logowrap img:first-child {
   height: 70px;
   margin-right: 10px;
 }
 
-.support{
+.support {
   padding: 50px 60px;
 }
 
-.support p{
+.support p {
   margin-top: 20px;
 }
 
-.follow{
+.follow {
   padding: 50px 60px;
 }
 
-.follow h3{
+.follow h3 {
   width: 100%;
 }
 
-.follow .sns{
+.follow .sns {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0;
 }
 
-.sns img{
+.sns img {
   width: 100px;
 }
 
-.news{
+.news {
   display: flex;
 }
 
-.news input{
+.news input {
   height: 30px;
   background-color: transparent;
   border: 1px solid white;
 }
 
-.news button{
+.news button {
   height: 30px;
   background-color: white;
   color: black;

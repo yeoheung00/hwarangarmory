@@ -41,6 +41,7 @@ export default function Header() {
         <div className={styles.navwrap}>
           <nav className={styles.nav}>
             <ul>
+              <li><Link href="/store">Store</Link></li>
               <li><Link href="/about">About</Link></li>
               <li><Link href="/programs">Programs</Link></li>
               <li><Link href="/board">Board</Link></li>

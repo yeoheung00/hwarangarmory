@@ -2,160 +2,123 @@
   "banner": [
     {
       "id": 0,
-      "imgUrl": "/banner01.jpg",
-      "desc": "EXPS3 will assist you aim your enemy before your enemy shoot you.",
-      "name": "EOTECH EXPS3"
+      "imgUrl": "/banner07.png",
+      "desc": "Chestrig provides high accessibility to your equipment at any time, whether on the move or in combat.",
+      "name": "OD Chest Rig"
     },
     {
       "id": 1,
-      "imgUrl": "/banner02.jpg",
-      "desc": "MTEK STRIKE Ballistic Helmet will assist you operate special gears and keep your head light.",
-      "name": "MTEK STRIKE BALLISTIC HELMET"
-    },
-    {
-      "id": 2,
-      "imgUrl": "/banner03.jpg",
-      "desc": "Mechanical The Original Gloves will protect your hand by any danger.",
-      "name": "MECHANIX THE ORIGINAL GLOVES"
-    },
-    {
-      "id": 3,
-      "imgUrl": "/banner04.jpg",
-      "desc": "Garmin GPSMAP 67 will assist in precise operations by providing accurate map information.",
-      "name": "GARMIN GPSMAP 67"
-    },
-
-    {
-      "id": 4,
       "imgUrl": "/banner01.jpg",
       "desc": "EXPS3 will assist you aim your enemy before your enemy shoot you.",
       "name": "EOTECH EXPS3"
     },
     {
-      "id": 5,
+      "id": 2,
       "imgUrl": "/banner02.jpg",
       "desc": "MTEK STRIKE Ballistic Helmet will assist you operate special gears and keep your head light.",
       "name": "MTEK STRIKE BALLISTIC HELMET"
     },
     {
-      "id": 6,
+      "id": 3,
       "imgUrl": "/banner03.jpg",
       "desc": "Mechanical The Original Gloves will protect your hand by any danger.",
       "name": "MECHANIX THE ORIGINAL GLOVES"
     },
     {
-      "id": 7,
+      "id": 4,
       "imgUrl": "/banner04.jpg",
       "desc": "Garmin GPSMAP 67 will assist in precise operations by providing accurate map information.",
       "name": "GARMIN GPSMAP 67"
+    },
+    {
+      "id": 4,
+      "imgUrl": "/banner08.jpg",
+      "desc": "Next Generation of rifle that chosen by US Armed Force.",
+      "name": "M4 URG-I"
     }
   ],
   "discount": [
     {
       "id": 0,
-      "name": "item1",
-      "img": "item1.jpg",
-      "price": 45,
+      "name": "Pistol Optic",
+      "img": "pistol_optic.png",
+      "price": 740,
       "discount": 20,
-      "summary": "this is item1. very good! go to try try!"
+      "summary": "This helps you aim quickly."
     },
     {
       "id": 1,
-      "name": "item2",
-      "img": "item2.jpg",
-      "price": 89,
+      "name": "Polymer Magazine",
+      "img": "polymer_magazine.png",
+      "price": 37,
       "discount": 25,
-      "summary": "this is item2. very good! go to try try!"
+      "summary": "A lightweight and sturdy 30-round magazine."
     },
     {
       "id": 2,
-      "name": "item3",
-      "img": "item3.jpg",
-      "price": 240,
+      "name": "Backup Ironsight Set",
+      "img": "backup_ironsight.png",
+      "price": 140,
       "discount": 35,
-      "summary": "this is item3. very good! go to try try!"
+      "summary": "This will help you if your scope breaks."
     },
     {
       "id": 3,
-      "name": "item4",
-      "img": "item4.jpg",
-      "price": 174,
-      "discount": 40,
-      "summary": "this is item4. very good! go to try try!"
+      "name": "Rifle Sling",
+      "img": "rifle_sling.png",
+      "price": 64,
+      "discount": 20,
+      "summary": "It will provide comfort in carrying the rifle."
     },
     {
       "id": 4,
-      "name": "item5",
-      "img": "item5.jpg",
-      "price": 304,
+      "name": "Vertical Grip",
+      "img": "vertical_grip.png",
+      "price": 51,
       "discount": 40,
-      "summary": "this is item5. very good! go to try try!"
-    },
-    {
-      "id": 5,
-      "name": "item6",
-      "img": "item5.jpg",
-      "price": 304,
-      "discount": 40,
-      "summary": "this is item5. very good! go to try try!"
-    },
-    {
-      "id": 6,
-      "name": "item7",
-      "img": "item5.jpg",
-      "price": 304,
-      "discount": 40,
-      "summary": "this is item5. very good! go to try try!"
-    },
-    {
-      "id": 7,
-      "name": "item8",
-      "img": "item5.jpg",
-      "price": 304,
-      "discount": 40,
-      "summary": "this is item5. very good! go to try try!"
+      "summary": "Reduces arm fatigue when shooting."
     }
   ],
   "newarrivals": [
     {
       "id": 0,
-      "name": "item1",
-      "img": "item1.jpg",
-      "price": 45,
-      "discount": 10,
-      "summary": "this is item1. very good! go to try try!"
+      "name": "Hologram Sight",
+      "img": "hologram_sight.png",
+      "price": 745,
+      "discount": 0,
+      "summary": "This helps you aim quickly."
     },
     {
       "id": 1,
-      "name": "item2",
-      "img": "item2.jpg",
-      "price": 89,
-      "discount": 10,
-      "summary": "this is item2. very good! go to try try!"
+      "name": "Rifle Sight",
+      "img": "rifle_sight.png",
+      "price": 599,
+      "discount": 0,
+      "summary": "This helps you aim quickly."
     },
     {
       "id": 2,
-      "name": "item3",
-      "img": "item3.jpg",
-      "price": 240,
-      "discount": 5,
-      "summary": "this is item3. very good! go to try try!"
+      "name": "Knee Pad",
+      "img": "knee_pad.png",
+      "price": 25,
+      "discount": 0,
+      "summary": "This will protect your knees from impact"
     },
     {
       "id": 3,
-      "name": "item4",
-      "img": "item4.jpg",
-      "price": 174,
+      "name": "Elbow Pad",
+      "img": "elbow_pad.png",
+      "price": 25,
       "discount": 0,
-      "summary": "this is item4. very good! go to try try!"
+      "summary": "This will protect your elbows from impact"
     },
     {
       "id": 4,
-      "name": "item5",
-      "img": "item5.jpg",
+      "name": "Optic Mount",
+      "img": "optic_mount.png",
       "price": 304,
       "discount": 0,
-      "summary": "this is item5. very good! go to try try!"
+      "summary": "This gives you comfort when aiming through the Rifle Optic."
     },
     {
       "id": 5,
